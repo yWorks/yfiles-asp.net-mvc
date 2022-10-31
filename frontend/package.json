@@ -1,0 +1,19 @@
+{
+  "name": "yfilesaspnet",
+  "version": "1.0.0",
+  "description": "yFiles for HTML with ASP.NET MVC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "author": "yWorks GmbH <yfileshtml@yworks.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.4",
+    "vite": "^3.2.1",
+    "yfiles": "file:../../yfiles-25.0.2+eval.tgz"
+  }
+}
